@@ -1,0 +1,45 @@
+{
+  "name": "project1_team3_repository",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "^0.27.2",
+    "next": "^12.1.6",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "^18.1.0",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "tailwindcss-scrollbar": "^0.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.3"
+  }
+}
